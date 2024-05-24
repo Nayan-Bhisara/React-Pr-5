@@ -1,0 +1,35 @@
+.cet button{
+    width: 95%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5px 10px 5px 0;
+    font-size: 18px;
+    padding-top: 20px;
+    border: 1px solid #f7f7f8;
+    background-color: #f7f7f8 !important;
+}
+.cet button:hover{
+    color: #64b496;
+}
+.ih{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.price{
+    font-size: 18px;
+    color: #64b496;
+    font-weight: 700;
+}
+
+.rprice{
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: grey;
+}
