@@ -6,7 +6,7 @@ import Header from './components/header/Header'
 import Section from './components/section-1/Section'
 import Section1 from './components/section-2/Section1'
 import Section3 from './components/section-3/Section3'
-import Section4 from './components/section-4/section4'
+import Section04 from './components/section-4/Section04'
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Section/>
       <Section1/>
       <Section3/>
-      <Section4/>
+      <Section04/>
     </>
   )
 }
