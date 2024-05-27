@@ -19,7 +19,7 @@ const Section04 = () => {
                                 <span className='percent'> 30% </span>  Off <span className=''> on first order </span>
                             </p>
 							<div class="cr3-button">
-                                <a href="#" class="cr-button">shop now</a>
+                                <a href="#" class="cr3-button">shop now</a>
                             </div>
 						</div>
 					</div>
@@ -37,7 +37,7 @@ const Section04 = () => {
                                 <span className='percent'> 20% </span> Off <span className=''> on first order </span>
                             </p>
 							<div class="cr3-button">
-                                <a href="#" class="cr-button">shop now</a>
+                                <a href="#" class="cr3-button">shop now</a>
                             </div>
 						</div>
 					</div>
@@ -55,7 +55,7 @@ const Section04 = () => {
                                 <span className='percent'> 35% </span>  Off <span className=''> on first order </span>
                             </p>
 							<div class="cr3-button">
-                                <a href="#" class="cr-button">shop now</a>
+                                <a href="#" class="cr3-button">shop now</a>
                             </div>
 						</div>
 					</div>
