@@ -9,8 +9,6 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 import { FiSearch } from "react-icons/fi";
 
 
-
-
 const Header = () => {
   return (
     <>
@@ -43,13 +41,13 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="register.html">Register</a>
+                                            <a class="dropdown-item" href="#">Register</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                            <a class="dropdown-item" href="#">Checkout</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="login.html">Login</a>
+                                            <a class="dropdown-item" href="#">Login</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -97,7 +95,7 @@ const Header = () => {
                                             data-bs-target="#v-pills-settings" type="button" role="tab"
                                             aria-controls="v-pills-settings" aria-selected="false" tabindex="-1">
                                             Juice &amp; Drinks </button>
-                                        <a class="nav-link" href="shop-left-sidebar.html">
+                                        <a class="nav-link" href="#">
                                             View All </a>
                                     </div>
                                     <div class="tab-content" id="v-pills-tabContent">
@@ -107,14 +105,14 @@ const Header = () => {
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Dairy</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Milk</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Ice cream</a>
+                                                        <li><a href="#">Milk</a></li>
+                                                        <li><a href="#">Ice cream</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Cheese</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Frozen
+                                                        <li><a href="#">Cheese</a></li>
+                                                        <li><a href="#">Frozen
                                                                 custard</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Frozen
+                                                        <li><a href="#">Frozen
                                                                 yogurt</a>
                                                         </li>
                                                     </ul>
@@ -122,18 +120,18 @@ const Header = () => {
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Bakery</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Cake and
+                                                        <li><a href="#">Cake and
                                                                 Pastry</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Rusk Toast</a>
+                                                        <li><a href="#">Rusk Toast</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Bread &amp;
+                                                        <li><a href="#">Bread &amp;
                                                                 Buns</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Chocolate
+                                                        <li><a href="#">Chocolate
                                                                 Brownie</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Cream Roll</a>
+                                                        <li><a href="#">Cream Roll</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -145,29 +143,29 @@ const Header = () => {
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Fruits</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Cauliflower</a>
+                                                        <li><a href="#">Cauliflower</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Bell
+                                                        <li><a href="#">Bell
                                                                 Peppers</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Broccoli</a>
+                                                        <li><a href="#">Broccoli</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Cabbage</a>
+                                                        <li><a href="#">Cabbage</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Tomato</a></li>
+                                                        <li><a href="#">Tomato</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Vegetable</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Cauliflower</a>
+                                                        <li><a href="#">Cauliflower</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Bell
+                                                        <li><a href="#">Bell
                                                                 Peppers</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Broccoli</a>
+                                                        <li><a href="#">Broccoli</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Cabbage</a>
+                                                        <li><a href="#">Cabbage</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Tomato</a></li>
+                                                        <li><a href="#">Tomato</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -178,33 +176,33 @@ const Header = () => {
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Snacks</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">French
+                                                        <li><a href="#">French
                                                                 fries</a></li>
-                                                        <li><a href="shop-left-sidebar.html">potato
+                                                        <li><a href="#">potato
                                                                 chips</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Biscuits &amp;
+                                                        <li><a href="#">Biscuits &amp;
                                                                 Cookies</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Popcorn</a>
+                                                        <li><a href="#">Popcorn</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Rice Cakes</a>
+                                                        <li><a href="#">Rice Cakes</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Spice</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Cinnamon
+                                                        <li><a href="#">Cinnamon
                                                                 Powder</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Cumin
+                                                        <li><a href="#">Cumin
                                                                 Powder</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Fenugreek
+                                                        <li><a href="#">Fenugreek
                                                                 Powder</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Pepper
+                                                        <li><a href="#">Pepper
                                                                 Powder</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Long Pepper</a>
+                                                        <li><a href="#">Long Pepper</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -216,31 +214,31 @@ const Header = () => {
                                                 <div class="col">
                                                     <h6 class="cr-col-title">Juice</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Mango Juice</a>
+                                                        <li><a href="#">Mango Juice</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Coconut
+                                                        <li><a href="#">Coconut
                                                                 Water</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Tetra Pack</a>
+                                                        <li><a href="#">Tetra Pack</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Apple
+                                                        <li><a href="#">Apple
                                                                 Juices</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Lychee
+                                                        <li><a href="#">Lychee
                                                                 Juice</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col">
                                                     <h6 class="cr-col-title">soft drink</h6>
                                                     <ul class="cat-list">
-                                                        <li><a href="shop-left-sidebar.html">Breizh Cola</a>
+                                                        <li><a href="#">Breizh Cola</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Green Cola</a>
+                                                        <li><a href="#">Green Cola</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Jolt Cola</a>
+                                                        <li><a href="#">Jolt Cola</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Mecca Cola</a>
+                                                        <li><a href="#">Mecca Cola</a>
                                                         </li>
-                                                        <li><a href="shop-left-sidebar.html">Topsia Cola</a>
+                                                        <li><a href="#">Topsia Cola</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -263,13 +261,13 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="register.html">Register</a>
+                                            <a class="dropdown-item" href="#">Register</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                            <a class="dropdown-item" href="#">Checkout</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="login.html">Login</a>
+                                            <a class="dropdown-item" href="#">Login</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -284,7 +282,7 @@ const Header = () => {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">
+                                    <a class="nav-link" href="#">
                                         Home
                                     </a>
                                 </li>
@@ -294,16 +292,16 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="shop-left-sidebar.html">Shop Left
+                                            <a class="dropdown-item" href="#">Shop Left
                                                 sidebar</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="shop-right-sidebar.html">Shop
+                                            <a class="dropdown-item" href="#">Shop
                                                 Right
                                                 sidebar</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="shop-full-width.html">Full
+                                            <a class="dropdown-item" href="#">Full
                                                 Width</a>
                                         </li>
                                     </ul>
@@ -314,17 +312,17 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="product-left-sidebar.html">product
+                                            <a class="dropdown-item" href="#">product
                                                 Left
                                                 sidebar </a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="product-right-sidebar.html">product
+                                            <a class="dropdown-item" href="#">product
                                                 Right
                                                 sidebar </a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="product-full-width.html">Product
+                                            <a class="dropdown-item" href="#">Product
                                                 Full
                                                 Width
                                             </a>
@@ -337,34 +335,34 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="about.html">About Us</a>
+                                            <a class="dropdown-item" href="#">About Us</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+                                            <a class="dropdown-item" href="#">Contact Us</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="cart.html">Cart</a>
+                                            <a class="dropdown-item" href="#">Cart</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                            <a class="dropdown-item" href="#">Checkout</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="track-order.html">Track Order</a>
+                                            <a class="dropdown-item" href="#">Track Order</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="wishlist.html">Wishlist</a>
+                                            <a class="dropdown-item" href="#">Wishlist</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="faq.html">Faq</a>
+                                            <a class="dropdown-item" href="#">Faq</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="login.html">Login</a>
+                                            <a class="dropdown-item" href="#">Login</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="register.html">Register</a>
+                                            <a class="dropdown-item" href="#">Register</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="policy.html">Policy</a>
+                                            <a class="dropdown-item" href="#">Policy</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -374,29 +372,29 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="blog-left-sidebar.html">Left
+                                            <a class="dropdown-item" href="#">Left
                                                 Sidebar</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="blog-right-sidebar.html">Right
+                                            <a class="dropdown-item" href="#">Right
                                                 Sidebar</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="blog-full-width.html">Full
+                                            <a class="dropdown-item" href="#">Full
                                                 Width</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="blog-detail-left-sidebar.html">Detail
+                                            <a class="dropdown-item" href="#">Detail
                                                 Left
                                                 Sidebar</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="blog-detail-right-sidebar.html">Detail
+                                            <a class="dropdown-item" href="#">Detail
                                                 Right
                                                 Sidebar</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="blog-detail-full-width.html">Detail
+                                            <a class="dropdown-item" href="#">Detail
                                                 Full
                                                 Width</a>
                                         </li>
@@ -408,13 +406,13 @@ const Header = () => {
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item" href="elements-products.html">Products</a>
+                                            <a class="dropdown-item" href="#">Products</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="elements-typography.html">Typography</a>
+                                            <a class="dropdown-item" href="#">Typography</a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="elements-buttons.html">Buttons</a>
+                                            <a class="dropdown-item" href="#">Buttons</a>
                                         </li>
                                     </ul>
                                 </li>
