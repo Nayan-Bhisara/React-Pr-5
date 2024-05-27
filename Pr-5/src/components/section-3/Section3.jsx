@@ -60,10 +60,14 @@ const Section3 = () => {
                             })
                         }
                         <div style={{background:'url(https://maraviyainfotech.com/projects/carrot/carrot-v2/carrot-html/assets/img/product/product-banner.jpg)',height:"500px",backgroundSize:"cover",borderRadius:"5px"}}className="mt-2 fruit-box">
-                            <h4>Juicy</h4>
-                            <h5>FRUITS</h5>
-                            <span>100% Natural</span>
-                            <a href="">Shop Now</a>
+                            <div className='cat-juicy'>
+                                <h4>Juicy</h4>
+                                <h5>FRUITS</h5>
+                                <span>100% Natural</span>
+                                <div class="cr-3-button">
+                                    <a href="#" class="cr-3-button">shop now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-9">
@@ -82,7 +86,10 @@ const Section3 = () => {
                                                 </div>
                                                 <div className="cat-text">
                                                     <a href="">{val.name}</a>
-                                                    <span>(5.0)</span>
+                                                    <div className='cr-star'>
+                                                        {val.stars}
+                                                        <span>{val.star1}</span>
+                                                    </div>
                                                     <p>{val.p}</p>
                                                 </div>
                                                 <div className="cat-price">
